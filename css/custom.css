@@ -1,6 +1,16 @@
 /*******
 COLOR CHEAT SHEET
-
+https://coolors.co/fec5bb-fcd5ce-fae1dd-f8edeb-e8e8e4-d8e2dc-ece4db-ffe5d9-ffd7ba-fec89a
+fec5bb- Powder Blush
+fcd5ce- Alomd Silk
+fae1dd- Soft Blush
+f8edeb- Seashell 
+e8e8e4- Albaster Grey
+d8e2dc- Albaster Grey
+ece4db- Linen
+ffe5d9- Powder Petal 
+ffd7ba- Peach Fuzz
+fec89a- Peach Glow
 
 
 
@@ -11,3 +21,9 @@ COLOR CHEAT SHEET
 /************************/
 /******** FONTS *********/
 /************************/
+body, p, div {
+      font-family: "Advent Pro", sans-serif;
+}
+h1, h2, h3, h3, h4, h5, h6 {
+    font-family: "Edu NSW ACT Cursive", cursive;
+}
