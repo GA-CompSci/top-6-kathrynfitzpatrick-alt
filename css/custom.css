@@ -21,9 +21,40 @@ fec89a- Peach Glow
 /************************/
 /******** FONTS *********/
 /************************/
-body, p, div {
-      font-family: "Advent Pro", sans-serif;
+body,
+p,
+div {
+    font-family: "Advent Pro", sans-serif;
 }
-h1, h2, h3, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Edu NSW ACT Cursive", cursive;
+}
+
+/************************/
+/******** HERO *********/
+/************************/
+
+header.masthead {
+    background: url("https://img.freepik.com/premium-photo/pastel-colored-ice-cream-background-ice-cream-watercolor-seamless-pattern-wallpaper-cute-backdrop_715671-1715.jpg?w=2000 ");
+    background-size: cover;
+}
+
+.masthead h1 {
+    color: #fec5bb;
+    text-shadow: 2px 2px 5px white;
+    font-size: 77px !important;
+}
+
+.masthead p {
+    color: #e8e8e4;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px white;
+    font-size: 2em !important;
 }
