@@ -11,7 +11,7 @@ ece4db- Linen
 ffe5d9- Powder Petal 
 ffd7ba- Peach Fuzz
 fec89a- Peach Glow
-
+#8b9991b2
 
 
 *****/
@@ -57,4 +57,31 @@ header.masthead {
     font-weight: 700;
     text-shadow: 1px 1px 2px white;
     font-size: 2em !important;
+}
+/************************/
+/******** PORTFOLIO *********/
+/************************/
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 2rem;
+}
+
+/************************/
+/******** PORTFOLIO *********/
+/************************/
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #fcd5ceee;
+}
+
+/************************/
+/******** COLORS *********/
+/************************/
+.text-primary {
+    color: #d8e2dc !important;
+}
+.bg-primary {
+    background-color: #ffe5d9!important;
+}
+#about p {
+    font-size: 22px;
+    color: #8b9991b2 !important;
 }
