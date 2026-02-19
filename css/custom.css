@@ -12,6 +12,8 @@ ffe5d9- Powder Petal
 ffd7ba- Peach Fuzz
 fec89a- Peach Glow
 #8b9991b2
+#bcc9c1 
+
 
 
 *****/
@@ -53,7 +55,7 @@ header.masthead {
 }
 
 .masthead p {
-    color: #e8e8e4;
+    color: #fcd5ce;
     font-weight: 700;
     text-shadow: 1px 1px 2px white;
     font-size: 2em !important;
@@ -79,9 +81,9 @@ header.masthead {
     color: #d8e2dc !important;
 }
 .bg-primary {
-    background-color: #ffe5d9!important;
+    background-color: #d8e2dc!important;
 }
 #about p {
     font-size: 22px;
-    color: #8b9991b2 !important;
+    color: white !important;
 }
