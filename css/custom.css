@@ -67,9 +67,6 @@ header.masthead {
     font-size: 2rem;
 }
 
-/************************/
-/******** PORTFOLIO *********/
-/************************/
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
     background: #fcd5ceee;
 }
@@ -86,4 +83,42 @@ header.masthead {
 #about p {
     font-size: 22px;
     color: white !important;
+}
+
+.btn-primary {
+    background-color: #f8edeb;
+    color: gray;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus  {
+    background-color: rgb(204, 31, 60);
+    color: gray;
+}
+
+#mainNav .navbar-brand {
+	color: gray;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+	color:gray ;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+	color: #f4623a !important;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+	color: #f4623a;
+}
+.bg-dark {
+    background-color: #fae1dd !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color:#ffe5d9;
+    border-radius: 5px;
+    padding: 3px; 
+}
+  
+/**** CONTACT *****/
+#contact p {
+    font-size: 23px; 
 }
