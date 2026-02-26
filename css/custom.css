@@ -90,27 +90,30 @@ header.masthead {
     color: gray;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus  {
-    background-color: rgb(204, 31, 60);
+    background-color: #e8e8e4;
     color: gray;
 }
 
 #mainNav .navbar-brand {
 	color: gray;
 }
+#mainNav.navbar-shrink .navbar-brand:hover {
+	color: #d8e2dc;
+}
 
 #mainNav .navbar-nav .nav-item .nav-link {
-	color:gray ;
+	color: gray ;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-	color: #f4623a !important;
+	color: pink !important;
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-	color: #f4623a;
+	color: #d8e2dc;
 }
 .bg-dark {
-    background-color: #fae1dd !important;
+    background-color: #d8e2dc !important;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
     background-color:#ffe5d9;
@@ -118,6 +121,23 @@ header.masthead {
     padding: 3px; 
 }
   
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: gray;
+    opacity: 1;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fcd5ce;
+}
+
+#mainNav .navbar-brand:hover {
+    color: #fcd5ce;
+    text-shadow: 0px 0px 1px black;
+}
+
 /**** CONTACT *****/
 #contact p {
     font-size: 23px; 
